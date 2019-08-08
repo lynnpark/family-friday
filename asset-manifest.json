@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/family-friday/static/css/main.65688e15.chunk.css",
+    "main.js": "/family-friday/static/js/main.e65411b9.chunk.js",
+    "main.js.map": "/family-friday/static/js/main.e65411b9.chunk.js.map",
+    "runtime~main.js": "/family-friday/static/js/runtime~main.a0e729fb.js",
+    "runtime~main.js.map": "/family-friday/static/js/runtime~main.a0e729fb.js.map",
+    "static/js/2.1b3a0643.chunk.js": "/family-friday/static/js/2.1b3a0643.chunk.js",
+    "static/js/2.1b3a0643.chunk.js.map": "/family-friday/static/js/2.1b3a0643.chunk.js.map",
+    "index.html": "/family-friday/index.html",
+    "precache-manifest.7ae7000b3a28497ea7effe200a30807a.js": "/family-friday/precache-manifest.7ae7000b3a28497ea7effe200a30807a.js",
+    "service-worker.js": "/family-friday/service-worker.js",
+    "static/css/main.65688e15.chunk.css.map": "/family-friday/static/css/main.65688e15.chunk.css.map"
+  }
+}
