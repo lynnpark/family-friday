@@ -11,16 +11,11 @@ button {
   padding: 12px 20px;
 }
 
-.spinningCage {
-  border: 5px solid red;
-}
-
 .header .logo {
   height: 50px;
 }
 
-.header h1 {
+h1, h2, h3 {
   font-family: "Helvetica Neue", "Roboto", Helvetica, Arial, sans-serif;
-  color: #19485d;
-  font-weight: bolder;
+  color: #19485d;  
 }

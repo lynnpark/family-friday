@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Button from "./Button";
 import LunchGroups from "./LunchGroups";
+import NewHire from "./NewHire";
 import { getEmployees } from "../data";
 
 export default function FamilyFriday() {
@@ -21,10 +22,12 @@ export default function FamilyFriday() {
         onClick={() => {
           setGroups(getGroups(employees));
         }}
-      >
-        Generate Groups!
-      </Button>
+        label={"Generate Groups"}
+        title={"Generate Groups!"}
+      />
+
       {groups && <LunchGroups groups={groups} />}
+      <NewHire setEmployees={setEmployees} />
     </div>
   );
 }

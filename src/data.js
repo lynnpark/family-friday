@@ -7,7 +7,7 @@ const data = [
   { name: "Bashful" },
   { name: "Sleepy" },
   { name: "Doc" },
-  { name: "Bashful" },
+  { name: "Brian" },
   { name: "Bob" }
 ];
 
