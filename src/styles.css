@@ -1,0 +1,26 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+button {
+  background-color: #8434d6;
+  color: #ffffff;
+  border-radius: 8px;
+  font-size: 18pt;
+  padding: 12px 20px;
+}
+
+.spinningCage {
+  border: 5px solid red;
+}
+
+.header .logo {
+  height: 50px;
+}
+
+.header h1 {
+  font-family: "Helvetica Neue", "Roboto", Helvetica, Arial, sans-serif;
+  color: #19485d;
+  font-weight: bolder;
+}
