@@ -2,18 +2,19 @@ import React, { useState, useEffect } from "react";
 import Button from "./Button";
 import LunchGroups from "./LunchGroups";
 import NewHire from "./NewHire";
-import { getEmployees } from "../data";
+import { getEmployees } from "../functions/api";
 
 export default function FamilyFriday() {
   const [employees, setEmployees] = useState();
   const [groups, setGroups] = useState();
 
   useEffect(() => {
-    setEmployees(getEmployees());
+    getEmployees().then(res => setEmployees(res.data));
   }, []);
 
   return (
     <div className="familyFriday">
+      {employees ? employees.data : "Loading Employees..."}
       <Button
         onClick={() => {
           setGroups(getGroups(employees));

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Button from "./Button";
+import { postEmployee } from "../functions/api";
 
 export default function NewHire(props) {
   const [newHireInfo, setNewHireInfo] = useState({ name: "" });
@@ -9,6 +10,7 @@ export default function NewHire(props) {
 
   const handleSubmit = e => {
     e.preventDefault();
+    postEmployee(newHireInfo);
     props.addEmployee(newHireInfo);
   };
 
