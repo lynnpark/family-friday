@@ -3,8 +3,12 @@ import React from "react";
 export default function Header() {
   return (
     <div className="header">
-      {logo}
-      <h1>Lunch Lottery</h1>
+      <div className="topNav">
+        {logo}
+        <span aria-label="by Lynn Park">by Lynn Park</span>
+      </div>
+
+      <h1>Family Friday Lunch Lottery</h1>
     </div>
   );
 }

@@ -12,12 +12,8 @@ export default function FamilyFriday() {
     setEmployees(getEmployees());
   }, []);
 
-  useEffect(() => {
-    setGroups(getGroups(employees));
-  }, [employees]);
-
   return (
-    <div>
+    <div className="familyFriday">
       <Button
         onClick={() => {
           setGroups(getGroups(employees));
@@ -25,9 +21,12 @@ export default function FamilyFriday() {
         label={"Generate Groups"}
         title={"Generate Groups!"}
       />
-
       {groups && <LunchGroups groups={groups} />}
-      <NewHire setEmployees={setEmployees} />
+      <NewHire
+        addEmployee={employee => {
+          setEmployees([...employees, employee]);
+        }}
+      />
     </div>
   );
 }

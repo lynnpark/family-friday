@@ -19,4 +19,8 @@ function getEmployees() {
   return data;
 }
 
-export { getEmployees };
+function addEmployee(employee) {
+  data.push(employee);
+}
+
+export { getEmployees, addEmployee };

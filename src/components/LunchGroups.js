@@ -5,9 +5,11 @@ export default function LunchGroups(props) {
   return (
     <div>
       <h2>Here are your Lunch Groups:</h2>
-      {props.groups.map((group, i) => (
-        <LunchGroup group={group} groupNum={i} />
-      ))}
+      <div className="lunchGroupsWrapper">
+        {props.groups.map((group, i) => (
+          <LunchGroup group={group} groupNum={i} />
+        ))}
+      </div>
     </div>
   );
 }
