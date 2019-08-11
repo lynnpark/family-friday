@@ -10,8 +10,12 @@ const emps = [
 ];
 
 it("getEmployees", () => {
-  getGroups(emps).forEach(group => {
-    expect(group.length).toBeGreaterThanOrEqual(3);
-    expect(group.length).toBeLessThanOrEqual(5);
-  });
+  let i = 100;
+  while (i--) {
+    emps.push({ name: "Test" });
+    getGroups(emps).forEach(group => {
+      expect(group.length).toBeGreaterThanOrEqual(3);
+      expect(group.length).toBeLessThanOrEqual(5);
+    });
+  }
 });

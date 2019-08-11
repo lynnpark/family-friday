@@ -7,8 +7,6 @@ export default function Header() {
         {logo}
         <span aria-label="by Lynn Park">by Lynn Park</span>
       </div>
-
-      <h1>Family Friday Lunch Lottery</h1>
     </div>
   );
 }

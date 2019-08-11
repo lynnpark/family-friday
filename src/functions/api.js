@@ -18,8 +18,12 @@ export function getEmployees() {
 }
 
 export function postEmployee(employee) {
+  const params = new URLSearchParams();
+  params.append("name", employee.name);
   return instance
-    .post(endpoint, employee)
+    .post(endpoint, params, {
+      "Content-Type": "application/x-www-form-urlencoded"
+    })
     .then(response => {
       return response.data;
     })

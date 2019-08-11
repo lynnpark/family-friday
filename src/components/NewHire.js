@@ -18,15 +18,14 @@ export default function NewHire(props) {
     <div className="newHire">
       <h2>Add a new hire!</h2>
       <form onSubmit={handleSubmit}>
-        <label>
-          Name:
-          <input
-            type="text"
-            name="name"
-            value={newHireInfo.name}
-            onChange={handleInputChange}
-          />
-        </label>
+        <input
+          className="newHire-name"
+          placeholder="ex. Lynn"
+          type="text"
+          name="name"
+          value={newHireInfo.name}
+          onChange={handleInputChange}
+        />
         <Button label={"Add New Hire"} title={"Add"} />
       </form>
     </div>

@@ -9,29 +9,39 @@ export default function FamilyFriday() {
   const [groups, setGroups] = useState();
 
   useEffect(() => {
-    getEmployees().then(res => setEmployees(res.data));
+    getEmployees().then(res => setEmployees(res));
   }, []);
+
+  useEffect(() => {
+    setGroups();
+  }, [employees]);
 
   return (
     <div className="familyFriday">
-      {employees ? employees.data : "Loading Employees..."}
-      <Button
-        onClick={() => {
-          setGroups(getGroups(employees));
-        }}
-        label={"Generate Groups"}
-        title={"Generate Groups!"}
-      />
-      {groups && <LunchGroups groups={groups} />}
+      <h1>Family Friday Lunch Lottery</h1>
+      {employees ? (
+        <Button
+          onClick={() => setGroups(getGroups(employees))}
+          label={"Generate Groups"}
+          title={"Generate Groups!"}
+        />
+      ) : (
+        "Loading Employees..."
+      )}
+
       <NewHire
-        addEmployee={employee => {
-          setEmployees([...employees, employee]);
-        }}
+        addEmployee={employee => setEmployees([...employees, employee])}
       />
+
+      {groups && <LunchGroups groups={groups} />}
     </div>
   );
 }
 
+/**
+ *
+ * @param {*} employees
+ */
 export function getGroups(employees) {
   if (!employees) return null;
   const employeesArr = shuffle(employees.slice(0));
