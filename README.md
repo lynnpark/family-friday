@@ -7,8 +7,8 @@ The list of employees are stored in a simple flat-file and hosted on Glitch.com 
 ## Getting Started
 
 ### Prerequisites
-- nodejs
-- npm
+- nodejs (v11.12.0 or greater)
+- npm (v6.9.0 or greater)
 
 ### Run the following commands after cloning the repository
 - `npm install`

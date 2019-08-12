@@ -1,6 +1,6 @@
 {
   "name": "family-friday",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "homepage": "http://lynnpark.github.io/family-friday",
   "private": true,
   "dependencies": {
@@ -35,5 +35,9 @@
   "devDependencies": {
     "@testing-library/react": "^9.1.0",
     "gh-pages": "^2.1.1"
+  },
+  "engines": {
+    "node": ">=11.12.0",
+    "npm": ">=6.9.0"
   }
 }
