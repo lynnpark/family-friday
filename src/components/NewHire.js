@@ -20,6 +20,7 @@ export default function NewHire(props) {
       <form onSubmit={handleSubmit}>
         <input
           className="newHire-name"
+          aria-label="Name of New Hire"
           placeholder="ex. Lynn"
           type="text"
           name="name"
