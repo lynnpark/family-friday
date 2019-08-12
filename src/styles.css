@@ -1,0 +1,104 @@
+.App {
+  font-family: "Helvetica Neue", "Roboto", Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3 {
+  color: #19485d;  
+}
+
+button {
+  border: transparent;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: 500;
+  height: 48px;
+  padding: 10px 25px;
+  text-transform: capitalize;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background: linear-gradient(to bottom,#8434d6 0%,#8434d6 100%);
+  color: #fff;
+  cursor: pointer;
+  margin: 8px; 
+}
+
+button:hover{
+  background: linear-gradient(to bottom,#9e5edf 0%,#9e5edf 100%);
+}
+
+.header {
+  width: auto;
+  max-width: 1016px;
+  padding: 0 36px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid rgb(230, 230, 230);
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.3)
+}
+
+.header .topNav{
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.topNav span{
+  font-size: 15px;
+  color: #333333;
+  font-weight: 500;
+}
+
+.header .logo {
+  height: 25px;
+  line-height: 0;
+  justify-self: flex-start;
+}
+
+.familyFriday {
+  padding-top: 16px;
+  width: auto;
+  max-width: 1016px;
+  padding: 0 36px;
+}
+
+
+.lunchGroupsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 5px 5px 16px 0 rgba(0, 0, 0, 0.13);
+  overflow: hidden;
+  transition: all .2s ease-in-out;
+  padding: 16px;
+  min-width: 200px;
+  margin: 0 16px 16px 0;
+}
+
+.card h3{
+  margin-top: 8px;
+}
+
+.newHire h3{
+  margin: 8px 0;
+}
+
+
+.newHire input{
+  height: 24px;
+}
+
+.newHire-name {
+  border: 1px solid #8434d6;
+  border-radius: 6px;
+  color: #19485d;
+  font-size: 14px;
+  padding: 16px;
+  width: 236px;
+}
