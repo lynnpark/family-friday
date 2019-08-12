@@ -5,7 +5,7 @@ export default function Header() {
     <div className="header">
       <div className="topNav">
         {logo}
-        <span aria-label="by Lynn Park">by Lynn Park</span>
+        <span>by Lynn Park</span>
       </div>
     </div>
   );
