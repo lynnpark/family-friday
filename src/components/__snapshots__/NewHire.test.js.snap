@@ -1,50 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`FamilyFriday Component Matches snapshot 1`] = `
+exports[`NewHire Component Matches snapshot 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div
-        class="familyFriday"
-      >
-        <h1>
-          Family Friday Lunch Lottery
-        </h1>
-        Loading Employees...
-        <div
-          class="newHire"
-        >
-          <h2>
-            Add a new hire!
-          </h2>
-          <form>
-            <input
-              aria-label="Name of New Hire"
-              class="newHire-name"
-              name="name"
-              placeholder="ex. Lynn"
-              type="text"
-              value=""
-            />
-            <button
-              aria-label="Add New Hire"
-            >
-              Add
-            </button>
-          </form>
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      class="familyFriday"
-    >
-      <h1>
-        Family Friday Lunch Lottery
-      </h1>
-      Loading Employees...
       <div
         class="newHire"
       >
@@ -67,6 +27,30 @@ Object {
           </button>
         </form>
       </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="newHire"
+    >
+      <h2>
+        Add a new hire!
+      </h2>
+      <form>
+        <input
+          aria-label="Name of New Hire"
+          class="newHire-name"
+          name="name"
+          placeholder="ex. Lynn"
+          type="text"
+          value=""
+        />
+        <button
+          aria-label="Add New Hire"
+        >
+          Add
+        </button>
+      </form>
     </div>
   </div>,
   "debug": [Function],

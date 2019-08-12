@@ -51,9 +51,7 @@ Object {
               </g>
             </g>
           </svg>
-          <span
-            aria-label="by Lynn Park"
-          >
+          <span>
             by Lynn Park
           </span>
         </div>
@@ -107,9 +105,7 @@ Object {
             </g>
           </g>
         </svg>
-        <span
-          aria-label="by Lynn Park"
-        >
+        <span>
           by Lynn Park
         </span>
       </div>

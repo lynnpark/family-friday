@@ -10,6 +10,7 @@ export default function NewHire(props) {
 
   const handleSubmit = e => {
     e.preventDefault();
+    if (!newHireInfo.name.length) return;
     postEmployee(newHireInfo);
     props.addEmployee(newHireInfo);
   };
@@ -20,6 +21,7 @@ export default function NewHire(props) {
       <form onSubmit={handleSubmit}>
         <input
           className="newHire-name"
+          aria-label="Name of New Hire"
           placeholder="ex. Lynn"
           type="text"
           name="name"

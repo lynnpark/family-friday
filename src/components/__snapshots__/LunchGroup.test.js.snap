@@ -1,72 +1,52 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`FamilyFriday Component Matches snapshot 1`] = `
+exports[`LunchGroup Component Matches snapshot 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="familyFriday"
+        class="card"
       >
-        <h1>
-          Family Friday Lunch Lottery
-        </h1>
-        Loading Employees...
-        <div
-          class="newHire"
-        >
-          <h2>
-            Add a new hire!
-          </h2>
-          <form>
-            <input
-              aria-label="Name of New Hire"
-              class="newHire-name"
-              name="name"
-              placeholder="ex. Lynn"
-              type="text"
-              value=""
-            />
-            <button
-              aria-label="Add New Hire"
-            >
-              Add
-            </button>
-          </form>
-        </div>
+        <h3>
+          Group #
+          NaN
+        </h3>
+        <p>
+          Sneezy
+        </p>
+        <p>
+          Happy
+        </p>
+        <p>
+          Jeff
+        </p>
+        <p>
+          Doc
+        </p>
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="familyFriday"
+      class="card"
     >
-      <h1>
-        Family Friday Lunch Lottery
-      </h1>
-      Loading Employees...
-      <div
-        class="newHire"
-      >
-        <h2>
-          Add a new hire!
-        </h2>
-        <form>
-          <input
-            aria-label="Name of New Hire"
-            class="newHire-name"
-            name="name"
-            placeholder="ex. Lynn"
-            type="text"
-            value=""
-          />
-          <button
-            aria-label="Add New Hire"
-          >
-            Add
-          </button>
-        </form>
-      </div>
+      <h3>
+        Group #
+        NaN
+      </h3>
+      <p>
+        Sneezy
+      </p>
+      <p>
+        Happy
+      </p>
+      <p>
+        Jeff
+      </p>
+      <p>
+        Doc
+      </p>
     </div>
   </div>,
   "debug": [Function],
