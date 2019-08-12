@@ -1,6 +1,6 @@
 {
   "name": "family-friday",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "homepage": "http://lynnpark.github.io/family-friday",
   "private": true,
   "dependencies": {
