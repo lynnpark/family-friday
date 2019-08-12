@@ -18,6 +18,7 @@ export function getEmployees() {
 }
 
 export function postEmployee(employee) {
+  if (!employee.name.length) return;
   const params = new URLSearchParams();
   params.append("name", employee.name);
   return instance

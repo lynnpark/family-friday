@@ -10,6 +10,7 @@ export default function NewHire(props) {
 
   const handleSubmit = e => {
     e.preventDefault();
+    if (!newHireInfo.name.length) return;
     postEmployee(newHireInfo);
     props.addEmployee(newHireInfo);
   };
