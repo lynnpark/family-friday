@@ -38,10 +38,6 @@ export default function FamilyFriday() {
   );
 }
 
-/**
- *
- * @param {*} employees
- */
 export function getGroups(employees) {
   if (!employees) return null;
   const employeesArr = shuffle(employees.slice(0));
