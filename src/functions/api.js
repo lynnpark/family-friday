@@ -29,6 +29,18 @@ export function postEmployee(employee) {
       return response.data;
     })
     .catch(error => {
+      console.log(error.response.data);
+    });
+}
+
+export function resetEmployees() {
+  const resetEndpoint = endpoint + "/reset";
+  return instance
+    .get(resetEndpoint)
+    .then(response => {
+      return response.data;
+    })
+    .catch(error => {
       throw error;
     });
 }
