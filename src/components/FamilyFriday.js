@@ -25,10 +25,8 @@ export default function FamilyFriday() {
       <h1>Family Friday Lunch Lottery</h1>
       {employees ? (
         <React.Fragment>
-          <Button
-            onClick={() => setGroups(getGroups(employees))}
-            label={"Generate Groups"}
-            title={"Generate Groups!"}
+          <NewHire
+            addEmployee={employee => setEmployees([...employees, employee])}
           />
           <Button
             onClick={reset}
@@ -43,8 +41,10 @@ export default function FamilyFriday() {
         {employees && employees.map(employee => employee.name).join(", ")}
       </div>
 
-      <NewHire
-        addEmployee={employee => setEmployees([...employees, employee])}
+      <Button
+        onClick={() => setGroups(getGroups(employees))}
+        label={"Generate Groups"}
+        title={"Generate Groups!"}
       />
 
       {groups && <LunchGroups groups={groups} />}

@@ -13,28 +13,11 @@ Object {
         </h1>
         Loading Employees...
         <div />
-        <div
-          class="newHire"
+        <button
+          aria-label="Generate Groups"
         >
-          <h2>
-            Add a new hire!
-          </h2>
-          <form>
-            <input
-              aria-label="Name of New Hire"
-              class="newHire-name"
-              name="name"
-              placeholder="ex. Lynn"
-              type="text"
-              value=""
-            />
-            <button
-              aria-label="Add New Hire"
-            >
-              Add
-            </button>
-          </form>
-        </div>
+          Generate Groups!
+        </button>
       </div>
     </div>
   </body>,
@@ -47,28 +30,11 @@ Object {
       </h1>
       Loading Employees...
       <div />
-      <div
-        class="newHire"
+      <button
+        aria-label="Generate Groups"
       >
-        <h2>
-          Add a new hire!
-        </h2>
-        <form>
-          <input
-            aria-label="Name of New Hire"
-            class="newHire-name"
-            name="name"
-            placeholder="ex. Lynn"
-            type="text"
-            value=""
-          />
-          <button
-            aria-label="Add New Hire"
-          >
-            Add
-          </button>
-        </form>
-      </div>
+        Generate Groups!
+      </button>
     </div>
   </div>,
   "debug": [Function],
