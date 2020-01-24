@@ -12,6 +12,7 @@ Object {
           Family Friday Lunch Lottery
         </h1>
         Loading Employees...
+        <div />
         <div
           class="newHire"
         >
@@ -45,6 +46,7 @@ Object {
         Family Friday Lunch Lottery
       </h1>
       Loading Employees...
+      <div />
       <div
         class="newHire"
       >
