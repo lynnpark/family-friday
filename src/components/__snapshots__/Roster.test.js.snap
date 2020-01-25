@@ -6,11 +6,71 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="newHire"
+        class="roster"
       >
         <h2>
-          Add a new hire!
+          Who's joining the fam today? 
+          <span
+            aria-label="family"
+            role="img"
+          >
+            👪
+          </span>
         </h2>
+        <div
+          class="newHire"
+        >
+          <h3>
+            Add a new hire!
+          </h3>
+          <form>
+            <input
+              aria-label="Name of New Hire"
+              class="newHire-name"
+              name="name"
+              placeholder="ex. Lynn"
+              type="text"
+              value=""
+            />
+            <button
+              aria-label="Add New Hire"
+              class="css-1izdt2e-Button"
+            >
+              Add
+            </button>
+          </form>
+        </div>
+        <button
+          aria-label="Reset Employees"
+          class="css-1izdt2e-Button"
+        >
+          Reset Employees
+        </button>
+        <div>
+          Happy, Dopey, Grumpy, Sneezy, Lynn, Bashful
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="roster"
+    >
+      <h2>
+        Who's joining the fam today? 
+        <span
+          aria-label="family"
+          role="img"
+        >
+          👪
+        </span>
+      </h2>
+      <div
+        class="newHire"
+      >
+        <h3>
+          Add a new hire!
+        </h3>
         <form>
           <input
             aria-label="Name of New Hire"
@@ -22,6 +82,7 @@ Object {
           />
           <button
             aria-label="Add New Hire"
+            class="css-1izdt2e-Button"
           >
             Add
           </button>
@@ -29,44 +90,13 @@ Object {
       </div>
       <button
         aria-label="Reset Employees"
+        class="css-1izdt2e-Button"
       >
         Reset Employees
       </button>
       <div>
         Happy, Dopey, Grumpy, Sneezy, Lynn, Bashful
       </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      class="newHire"
-    >
-      <h2>
-        Add a new hire!
-      </h2>
-      <form>
-        <input
-          aria-label="Name of New Hire"
-          class="newHire-name"
-          name="name"
-          placeholder="ex. Lynn"
-          type="text"
-          value=""
-        />
-        <button
-          aria-label="Add New Hire"
-        >
-          Add
-        </button>
-      </form>
-    </div>
-    <button
-      aria-label="Reset Employees"
-    >
-      Reset Employees
-    </button>
-    <div>
-      Happy, Dopey, Grumpy, Sneezy, Lynn, Bashful
     </div>
   </div>,
   "debug": [Function],

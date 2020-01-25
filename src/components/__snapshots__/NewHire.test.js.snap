@@ -8,9 +8,9 @@ Object {
       <div
         class="newHire"
       >
-        <h2>
+        <h3>
           Add a new hire!
-        </h2>
+        </h3>
         <form>
           <input
             aria-label="Name of New Hire"
@@ -22,6 +22,7 @@ Object {
           />
           <button
             aria-label="Add New Hire"
+            class="css-1izdt2e-Button"
           >
             Add
           </button>
@@ -33,9 +34,9 @@ Object {
     <div
       class="newHire"
     >
-      <h2>
+      <h3>
         Add a new hire!
-      </h2>
+      </h3>
       <form>
         <input
           aria-label="Name of New Hire"
@@ -47,6 +48,7 @@ Object {
         />
         <button
           aria-label="Add New Hire"
+          class="css-1izdt2e-Button"
         >
           Add
         </button>

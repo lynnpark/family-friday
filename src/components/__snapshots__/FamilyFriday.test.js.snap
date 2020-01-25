@@ -11,13 +11,27 @@ Object {
         <h1>
           Family Friday Lunch Lottery
         </h1>
-        Loading Employees...
-        <div />
         <button
           aria-label="Generate Groups"
+          class="css-op8qjp-Button"
         >
           Generate Groups!
         </button>
+        <div
+          class="roster"
+        >
+          <h2>
+            Who's joining the fam today? 
+            <span
+              aria-label="family"
+              role="img"
+            >
+              👪
+            </span>
+          </h2>
+          Loading Employees...
+          <div />
+        </div>
       </div>
     </div>
   </body>,
@@ -28,13 +42,27 @@ Object {
       <h1>
         Family Friday Lunch Lottery
       </h1>
-      Loading Employees...
-      <div />
       <button
         aria-label="Generate Groups"
+        class="css-op8qjp-Button"
       >
         Generate Groups!
       </button>
+      <div
+        class="roster"
+      >
+        <h2>
+          Who's joining the fam today? 
+          <span
+            aria-label="family"
+            role="img"
+          >
+            👪
+          </span>
+        </h2>
+        Loading Employees...
+        <div />
+      </div>
     </div>
   </div>,
   "debug": [Function],
