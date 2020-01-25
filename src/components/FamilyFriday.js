@@ -21,6 +21,7 @@ export default function FamilyFriday() {
     <div className="familyFriday">
       <h1>Family Friday Lunch Lottery</h1>
       <Button
+        size="large"
         onClick={() => setGroups(getGroups(employees))}
         label={"Generate Groups"}
         title={"Generate Groups!"}

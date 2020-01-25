@@ -9,10 +9,6 @@ h1, h2, h3 {
 button {
   border: transparent;
   border-radius: 6px;
-  font-size: 18px;
-  font-weight: 500;
-  height: 48px;
-  padding: 10px 25px;
   text-transform: capitalize;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -22,6 +18,20 @@ button {
   color: #fff;
   cursor: pointer;
   margin: 8px; 
+}
+
+button.medium {
+  font-size: 18px;
+  font-weight: 500;
+  height: 48px;
+  padding: 10px 25px;
+}
+
+button.large {
+  font-size: 22px;
+  font-weight: 800;
+  height: 54px;
+  padding: 12px 27px;
 }
 
 button:hover{
