@@ -20,8 +20,6 @@ export default function FamilyFriday() {
   return (
     <div className="familyFriday">
       <h1>Family Friday Lunch Lottery</h1>
-      <Roster employees={employees} setEmployees={setEmployees} />
-
       <Button
         onClick={() => setGroups(getGroups(employees))}
         label={"Generate Groups"}
@@ -29,6 +27,8 @@ export default function FamilyFriday() {
       />
 
       {groups && <LunchGroups groups={groups} />}
+
+      <Roster employees={employees} setEmployees={setEmployees} />
     </div>
   );
 }
