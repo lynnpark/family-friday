@@ -17,7 +17,7 @@ export default function NewHire(props) {
 
   return (
     <div className="newHire">
-      <h2>Add a new hire!</h2>
+      <h3>Add a new hire!</h3>
       <form onSubmit={handleSubmit}>
         <input
           className="newHire-name"

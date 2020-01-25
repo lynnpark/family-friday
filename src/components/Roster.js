@@ -9,7 +9,10 @@ export default function Roster(props) {
   };
 
   return (
-    <React.Fragment>
+    <div className="roster">
+      <h2>
+        Who's joining the fam today? <span aria-label="family" role="img">👪</span>
+      </h2>
       {props.employees ? (
         <React.Fragment>
           <NewHire
@@ -27,6 +30,6 @@ export default function Roster(props) {
       <div>
         {props.employees && props.employees.map(employee => employee.name).join(", ")}
       </div>
-    </React.Fragment>
+    </div>
   );
 }

@@ -63,6 +63,10 @@ button:hover{
   padding: 0 36px;
 }
 
+.roster {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
 
 .lunchGroupsWrapper {
   display: flex;
