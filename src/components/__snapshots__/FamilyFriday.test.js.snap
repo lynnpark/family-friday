@@ -18,7 +18,7 @@ Object {
           Generate Groups!
         </button>
         <div
-          class="roster"
+          class="css-o000xv-Roster"
         >
           <h2>
             Who's joining the fam today? 
@@ -49,7 +49,7 @@ Object {
         Generate Groups!
       </button>
       <div
-        class="roster"
+        class="css-o000xv-Roster"
       >
         <h2>
           Who's joining the fam today? 
