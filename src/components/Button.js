@@ -1,6 +1,6 @@
 /** @jsx jsx */
 
-import { css, jsx } from '@emotion/core'
+import { css, jsx } from "@emotion/core";
 
 export default function Button(props) {
   const commonCss = `

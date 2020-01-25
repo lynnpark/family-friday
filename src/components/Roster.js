@@ -1,4 +1,7 @@
+/** @jsx jsx **/
+
 import React from "react";
+import { css, jsx } from "@emotion/core";
 import Button from "./Button";
 import NewHire from "./NewHire";
 import { resetEmployees } from "../functions/api";
@@ -9,7 +12,7 @@ export default function Roster(props) {
   };
 
   return (
-    <div className="roster">
+    <div css={css`border: 1px solid #ccc; padding: 10px;`}>
       <h2>
         Who's joining the fam today? <span aria-label="family" role="img">👪</span>
       </h2>
