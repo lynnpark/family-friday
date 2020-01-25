@@ -19,7 +19,6 @@ export default function Button(props) {
   }
   return (
     <button
-      className={props.size}
       aria-label={props.label}
       onClick={props.onClick}
       css={css`
