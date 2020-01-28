@@ -30,7 +30,10 @@ export default function NewHire(props) {
           name="name"
           value={newHireInfo.name}
           onChange={handleInputChange}
-          css={css`margin: 12px 24px 12px 0;`}
+          css={css`
+            height: 24px;
+            margin-right: 8px;
+          `}
         />
         <Button label={"Add New Hire"} title={"Add"} />
       </form>
