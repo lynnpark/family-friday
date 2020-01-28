@@ -1,4 +1,7 @@
-import React, { useState } from "react";
+/** @jsx jsx */
+
+import { useState } from "react";
+import { css, jsx } from "@emotion/core";
 import Button from "./Button";
 import { postEmployee } from "../functions/api";
 
@@ -27,6 +30,7 @@ export default function NewHire(props) {
           name="name"
           value={newHireInfo.name}
           onChange={handleInputChange}
+          css={css`margin: 12px 24px 12px 0;`}
         />
         <Button label={"Add New Hire"} title={"Add"} />
       </form>

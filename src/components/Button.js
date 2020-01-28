@@ -32,7 +32,7 @@ const commonCss = `
   background: linear-gradient(to bottom,#8434d6 0%,#8434d6 100%);
   color: #fff;
   cursor: pointer;
-  margin: 8px;
+  margin: 12px 0;
   &:hover {
     background: linear-gradient(to bottom,#9e5edf 0%,#9e5edf 100%);
   }
