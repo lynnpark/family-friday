@@ -13,7 +13,7 @@ Object {
         </h1>
         <button
           aria-label="Generate Groups"
-          class="css-op8qjp-Button"
+          class="css-17fcwdm-Button"
         >
           Generate Groups!
         </button>
@@ -44,7 +44,7 @@ Object {
       </h1>
       <button
         aria-label="Generate Groups"
-        class="css-op8qjp-Button"
+        class="css-17fcwdm-Button"
       >
         Generate Groups!
       </button>

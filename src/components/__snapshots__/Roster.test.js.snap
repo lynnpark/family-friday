@@ -26,7 +26,7 @@ Object {
           <form>
             <input
               aria-label="Name of New Hire"
-              class="newHire-name"
+              class="newHire-name css-mnh0sj-NewHire"
               name="name"
               placeholder="ex. Lynn"
               type="text"
@@ -34,7 +34,7 @@ Object {
             />
             <button
               aria-label="Add New Hire"
-              class="css-1izdt2e-Button"
+              class="css-hlrf09-Button"
             >
               Add
             </button>
@@ -42,7 +42,7 @@ Object {
         </div>
         <button
           aria-label="Reset Employees"
-          class="css-1izdt2e-Button"
+          class="css-hlrf09-Button"
         >
           Reset Employees
         </button>
@@ -74,7 +74,7 @@ Object {
         <form>
           <input
             aria-label="Name of New Hire"
-            class="newHire-name"
+            class="newHire-name css-mnh0sj-NewHire"
             name="name"
             placeholder="ex. Lynn"
             type="text"
@@ -82,7 +82,7 @@ Object {
           />
           <button
             aria-label="Add New Hire"
-            class="css-1izdt2e-Button"
+            class="css-hlrf09-Button"
           >
             Add
           </button>
@@ -90,7 +90,7 @@ Object {
       </div>
       <button
         aria-label="Reset Employees"
-        class="css-1izdt2e-Button"
+        class="css-hlrf09-Button"
       >
         Reset Employees
       </button>
